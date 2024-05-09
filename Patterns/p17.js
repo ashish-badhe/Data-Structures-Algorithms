@@ -35,8 +35,19 @@ const printPattern = (n) => {
         }
     }
 
-    let space = n;
+    let space = n - row;
+    while(space){
+        line = line + "  ";
+        space--;
+    }
+
+    for(let col = 1 ; col <= row ; col++){
+        line = line + "* ";
+    }
+
+    console.log(line);
+
   }
 };
 
-printPattern(5);
+printPattern(10);
