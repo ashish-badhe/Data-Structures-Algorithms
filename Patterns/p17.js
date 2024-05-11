@@ -1,3 +1,18 @@
+/*
+
+* * * * * * * * * * 
+* * * *     * * * * 
+* * *         * * * 
+* *             * * 
+*                 * 
+*                 * 
+* *             * * 
+* * *         * * * 
+* * * *     * * * * 
+* * * * * * * * * * 
+
+*/
+
 const printPattern = (n) => {
   for (let row = n; row >= 1; row--) {
     let line = "";
@@ -50,4 +65,4 @@ const printPattern = (n) => {
   }
 };
 
-printPattern(10);
+printPattern(5);
